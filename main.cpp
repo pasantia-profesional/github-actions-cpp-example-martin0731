@@ -34,10 +34,10 @@ int main() {
         if (std::cin.fail()) {
             limpiarBuffer();
             std::cout << "Opcion invalida. Por favor ingrese un numero." << std::endl;
-            continue;
         }
-        
+        else{
         limpiarBuffer();
+        }
         
         switch (opcion) {
             case 1: {
